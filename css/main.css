@@ -1,0 +1,78 @@
+h2 {
+	font-family:'Lily Script One', cursive;
+
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight:bold;
+	font-size:15px;
+}
+
+
+.contenedor {
+	width:1400px;
+	height:400px;
+	margin:auto;
+	padding-left:30px;
+}
+
+.caja {
+	width:210px;
+	height:280px;
+	background-color:#F2EBEB;
+	float:left;
+	margin-left:10px;
+	margin-top: 10px;
+	padding:10px;
+	text-align:center;
+	color:#989898;
+	-webkit-box-shadow: 11px 11px 0px -8px rgba(201,197,201,1);
+	-moz-box-shadow: 11px 11px 0px -8px rgba(201,197,201,1);
+	box-shadow: 11px 11px 0px -8px rgba(201,197,201,1);
+	-webkit-transition: all .2s ease-in-out; 
+	
+}
+
+.caja:hover {
+	background-color:white;
+	color:#B4CEEF;
+	-webkit-box-shadow: 3px 15px 5px 0px rgba(204,198,204,1);
+	-moz-box-shadow: 3px 15px 5px 0px rgba(204,198,204,1);
+	box-shadow: 3px 15px 5px 0px rgba(204,198,204,1);
+	-webkit-transform: scale(1.1);
+}
+
+.caja:hover span {
+	font-size:60px;
+}
+
+
+
+.icon-paper-plane-o {
+	font-size:50px;
+	color:#00AFB1;
+}
+
+
+.icon-diamond {
+	font-size:50px;
+	color:#03C394;
+}
+
+.icon-heart-o {
+	font-size:50px;
+	color:#A0DA05;
+}
+.icon-coffee {
+	font-size:50px;
+	color:#F8D824;
+}
+.icon-hand-peace-o {
+	font-size:50px; 
+	color:#FC2B15;
+}
